@@ -1,6 +1,6 @@
 # Video Player in Python
 
-This is a simple application which plays Video and Audio.
+This is a simple application which plays Video and Audio using PyQt5 in python.
 
 ## Code 
 
