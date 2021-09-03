@@ -213,7 +213,7 @@ class VideoPlayer(QMainWindow):
 
     def Open_File(self):
         self.fileName, _ = QFileDialog.getOpenFileName(self, "Open", '.',
-                                                       "Files (*.mp4 *.flv *.ts *.mts *.avi *.wav *.mp3)",
+                                                       "Files (*.mp4 *.flv *.ts *.mts *.avi *.wav *.mp3 *.mkv)",
                                                        QDir.homePath())
 
         if self.fileName != '':
